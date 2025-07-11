@@ -16,7 +16,7 @@ docker run --rm \
 In order to use JDK 11, you need to use java buildpack v4.16+.
 The jre version should be set in `JBP_CONFIG_OPEN_JDK_JRE`.
 
-`manifest.yml` will look like
+`manifest.yml` will look like this
 
 ```
 applications:
@@ -34,4 +34,3 @@ then,
 cf push
 ```
 
-🎉
